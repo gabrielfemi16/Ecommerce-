@@ -1,0 +1,90 @@
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icon1 {
+    display: flex;
+}
+
+.icon1 i {
+    font-size: 50px;
+}
+
+.part1 {
+    margin-left: 20px;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+
+.part1 p {
+    margin-top: 30px; 
+    font-size: 15px;
+    position: absolute;
+    margin-left: 20px;
+    color: #333333;
+}
+
+.part1 h1 {
+    font-size: 20px;
+    margin: 0;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icons.container {
+    display: flex; /* Make the container a flexbox */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add space between items in the container */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.icon1 {
+    display: flex; /* Use flexbox for the icon and text */
+    align-items: center; /* Vertically center the icon and text */
+    gap: 15px; /* Space between the icon and text */
+    padding: 15px; /* Add some padding around the icon and text */
+    border: 1px solid #ddd; /* Optional: Add border for clarity */
+    border-radius: 8px; /* Optional: Rounded corners */
+    background-color: #f9f9f9; /* Optional: Light background color */
+}
+
+.icon1 i {
+    font-size: 2.5em; /* Make the icon larger */
+    color: #4CAF50; /* Optional: Icon color */
+}
+
+.part1 {
+    display: flex; /* Keep the heading and paragraph in a column */
+    flex-direction: column; /* Stack the heading and paragraph vertically */
+    text-align: left; /* Align text to the left */
+}
+
+.part1 h1 {
+    margin: 0; /* Remove the default margin of h1 */
+    font-size: 1.5em; /* Adjust font size of the heading */
+}
+
+.part1 p {
+    margin: 0; /* Remove default margin from the paragraph */
+    font-size: 1em; /* Adjust font size of the paragraph */
+    color: #666; /* Optional: Slightly lighter color for the paragraph */
+}
