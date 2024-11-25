@@ -30,6 +30,15 @@ footer {
   min-width: 200px;
 }
 
+.first h1, .second h1 {
+  color: whitesmoke;
+} 
+
+.second i {
+  font-size: 30px;
+  color: rgb(166, 125, 73);
+}
+
 h1 {
   font-size: 1.2rem;
   margin-bottom: 10px;
@@ -76,4 +85,9 @@ ul li {
 .terms a {
   color: #555;
   text-decoration: none;
+}
+
+.first i {
+  font-size: 20px;
+  gap: 400;
 }
