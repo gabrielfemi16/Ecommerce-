@@ -1,142 +1,379 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(235, 233, 231);
+body {
+  background-color: rgb(235, 233, 231);
 }
 
-.container{
-    width: 90%;
-    margin: 0 auto;
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .icons.container {
-    display: flex;
-    justify-content: center; 
-    gap: 50px;
-    flex-wrap: wrap; 
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 .icon1 {
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
-    gap: 5px;
-    padding: 15px; 
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
 .icon1 i {
-    font-size: 50px;
-    color: rgb(166, 125, 73);
+  font-size: 50px;
+  color: rgb(166, 125, 73);
 }
 
 .part1 {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 .part1 h1 {
-    margin: 0; 
-    font-size: 20px; 
+  margin: 0;
+  font-size: 20px;
 }
 
 .part1 p {
-    margin-top: 5px;
-    font-size: 13px; 
-    color: #666; 
+  margin-top: 5px;
+  font-size: 13px;
+  color: #666;
 }
-.div{
+
+.div {
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chairs-text {
+  width: 45%;
+}
+
+.Chairs-text h1 {
+  font-size: 80px;
+}
+
+.Chairs-text p {
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p span {
+  padding-top: 5px;
+  padding-left: 2px;
+  width: 130px;
+  height: 28px;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px transparent;
+  color: rgb(166, 125, 73);
+  background-color: rgb(194, 183, 169);
+  display: inline-block;
+}
+
+.Buy {
+  border: 1px solid rgb(166, 125, 73);
+  height: 50px;
+  width: 150px;
+  background-color: rgb(166, 125, 73);
+  color: white;
+  font-size: 18px;
+}
+
+.Buy:hover {
+  background-color: rgb(235, 233, 231);
+  color: rgb(166, 125, 73);
+  transition: 1s ease;
+}
+
+.view {
+  border: 1px solid rgb(166, 125, 73);
+  color: rgb(166, 125, 73);
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.view:hover {
+  background-color: rgb(166, 125, 73);
+  color: white;
+  transition: 1s ease;
+}
+
+.Chairs-image {
+  width: 45%;
+  position: relative;
+}
+
+.Chairs-image img {
+  width: 500px;
+  height: 400px;
+  top: 2px;
+  position: absolute;
+}
+
+.color {
+  background-color: rgb(166, 125, 73);
+  border-radius: 50%;
+  margin-left: 30px;
+  height: 400px;
+  width: 400px;
+}
+
+.recent-blog {
+  width: 100%;
+  margin-top: 50px;
+  padding: 0 30px;
+  background-color: rgb(220, 212, 201);
+  text-align: center;
+}
+
+.align {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.read-btn {
+  background-color: rgb(194, 183, 169);
+  color: rgb(166, 125, 73);
+  padding: 10px 20px;
+  width: 150px;
+  border: none;
+  margin-top: 20px;
+}
+
+.recent-blog h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.text-image {
+  width: 45%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.content {
+  width: 50%;
+  text-align: start;
+}
+
+.text-image1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgb(194, 183, 169);
+  color: rgb(166, 125, 73);
+  border: 1px solid rgb(194, 183, 169);
+  height: 25px;
+  width: 100px;
+  border-radius: 15px;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.text-image p {
+  font-size: 0.9rem;
+  color: rgb(184, 176, 176);
+}
+
+.text-image h2 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.text-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-image img {
+  width: 250px;
+}
+
+.text-image p {
+  margin-top: 5px;
+}
+
+.text-image h2 {
+  margin-top: 10px;
+}
+
+.different {
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  padding: 0 30px;
+  background-color: white;
+}
+
+.colour {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.blue,
+.yellow,
+.pink {
+  width: 30%;
+  height: 200px;
+  padding: 20px;
+  font-size: 18px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.blue {
+  background-color: rgb(178, 254, 254);
+}
+
+.yellow {
+  background-color: rgb(252, 252, 179);
+}
+
+.pink {
+  background-color: rgb(255, 216, 223);
+}
+
+.color-btn1 {
+  border: 1px solid black;
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+  margin-top: 10px;
+  background-color: rgb(178, 254, 254);
+}
+
+.color-btn2 {
+  border: 1px solid black;
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+  margin-top: 10px;
+  background-color: rgb(252, 252, 179);
+}
+
+.color-btn1:hover,
+.color-btn2:hover {
+  border: 1px transparent;
+  background-color: rgb(166, 125, 73);
+  color: white;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 700px) {
+  .Chairs-image{
     width: 100%;
-    height: 100vh;
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.chairs-text{
-    width: 45%;
-}
-
-.Chairs-text h1{
-    font-size: 80px;
-}
-
-.Chairs-text p{
-    font-size: 17px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-p span{
-    padding-top: 5px;
-    padding-left: 2px;
-    width: 130px;
-    height: 28px;
-    font-size: 15px;
-    font-weight: 600;
-    border: 1px transparent;
-    color: rgb(166, 125, 73);
-    background-color: rgb(194, 183, 169);
-    display: inline-block;
-}
-
-.Buy{
-    border: 1px solid rgb(166, 125, 73);
-    height: 50px;
-    width: 150px;
-    background-color: rgb(166, 125, 73);
-    color: white;
-    font-size: 18px;
-}
-
-.Buy:hover{
-    background-color: rgb(235, 233, 231);
-    color: rgb(166, 125, 73);
-    transition: 1s ease;
-}
-
-.view{
-    border: 1px solid rgb(166, 125, 73);
-    color: rgb(166, 125, 73);
-    height: 50px;
-    width: 150px;
-    font-size: 18px;
-    margin-left: 10px;
-}
-
-.view:hover{
-    background-color: rgb(166, 125, 73);
-    color: white;
-    transition: 1s ease;
-}
-
-.Chairs-image{
-    width: 45%;
-    
+    margin-top: 20px;
+    margin-bottom:300px ;
     position: relative;
-}
 
-.Chairs-image img{
-    width: 500px;
-    height: 400px;
-    top: 2px;
-    position:absolute;
-}
+  }
 
-.color{
+  .Chairs-text h1{
+    font-size: 50px;
+  }
+
+  .Chairs-image img {
+    width: 300px;
+    height: 200px;
+    top: 60px;
+    left: 30px;
+  }
+
+  .color {
     background-color: rgb(166, 125, 73);
-   
     border-radius: 50%;
-    margin-left:30px ;
-    height: 400px;
-    width: 400px;
+    margin-left: 30px;
+    height: 300px;
+    width: 300px;
+  }
+
+  .div {
+    display: block;
+  }
+
+  .recent-blog {
+    width: 100%
+  }
+
+  .content {
+    width: 100%;
+    text-align: start;
+  }
+  
+
+  .align {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .image1 img {
+    width: 100%;
     
+  }
+
+  .text-image {
+    width: 100%;
+    flex-direction: column;
+
+  }
+
+  .different {
+    height: auto;
+  }
+
+  .colour {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .blue,
+  .yellow,
+  .pink {
+    width: 90%;
+    margin: 10px 0;
+    height: 180px;
+  }
+
+  .color-btn1,
+  .color-btn2 {
+    width: 100%;
+    margin-top: 15px;
+  }
 }
-
-
