@@ -1,8 +1,7 @@
 
 
-footer {
+.footer-content {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   background-color: black;
   color: whitesmoke;
@@ -12,8 +11,17 @@ footer {
 
 
 .first, .second {
-  flex: 1 1 200px;
+  flex: 2 1 200px;
   min-width: 200px;
+}
+
+.first h1, .second h1 {
+  color: whitesmoke;
+} 
+
+.second i {
+  font-size: 30px;
+  color: rgb(166, 125, 73);
 }
 
 h1 {
@@ -62,4 +70,15 @@ ul li {
 .terms a {
   color: #555;
   text-decoration: none;
+}
+
+.first i {
+  font-size: 20px;
+  gap: 400;
+}
+
+@media(max-width:700px) {
+  .footer-content{
+    flex-direction: column;
+  }
 }
