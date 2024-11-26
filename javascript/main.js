@@ -4,6 +4,8 @@ const secondElem = document.getElementById("second");
 const time4Elem = document.getElementById("time4");
 const time5Elem = document.getElementById("time5");
 
+const image=document.getElementById("hero-img");
+ 
 setInterval(() => {
     let launchDate = new Date("oct 27, 2025, 00:00:00").getTime();
     let now = new Date().getTime();
@@ -19,10 +21,16 @@ setInterval(() => {
     time4Elem.innerHTML = `${minutes}`;
     time5Elem.innerHTML = `${seconds}`;
 
-    
-
-    console.log(days);
-    console.log(hours);
-    console.log(minutes);
-    console.log(seconds);
 }, 1000);
+
+let chair = 0
+setInterval(()=>{
+ chairImageArr = ["../chair1.png", "../chair2.png", "../chair3.png"]
+  image.src=chairImageArr[chair]
+  
+  if(chair > 1) {
+    chair = 0
+  } else {
+    chair += 1
+  }
+},2000)
