@@ -25,7 +25,7 @@ setInterval(() => {
 
 let chair = 0
 setInterval(()=>{
- chairImageArr = ["../chair1.png", "../chair2.png", "../chair3.png"]
+ chairImageArr = ["../images/chair1.png", "../images/chair2.png", "../images/chair3.png"]
   image.src=chairImageArr[chair]
   
   if(chair > 1) {
