@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+  
+
+body {
+    background-color: whitesmoke;
+}
+
+.aboutus {
+    background-image: linear-gradient(
+      to bottom,
+      rgb(9, 8, 8, 0.5),
+      rgb(7, 7, 7, 0.5)
+    ),
+    url("../images/WhatsApp\ Image\ 2024-12-03\ at\ 13.03.39_320b007b.jpg");
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.aboutus-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+  .aboutus-image h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+  }
+
+.about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke;
+}
+
+.aboutus h1 {
+    font-size: 80px;
+}
+
+.about p {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.about p:hover {
+    color: #f59e42; 
+}
+
+.design {
+    margin-top: 150px;
+}
+
+.design p {
+    color: #f59e42;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.design h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+.design1 {
+    margin-top: 5px;
+    color: grey;
+    font-size: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.design1 img {
+    margin-top: 80px;
+    height: 350px;
+}
+
+.designs {
+    display: flex;
+}
+
+.image img {
+    height: 700px;
+    width: 600px;
+}
+
+.video img {
+    margin-top: 150px;
+    height: 400px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutus h1 {
+        font-size: 60px;
+    }
+
+    .about p {
+        font-size: 22px;
+    }
+
+    .design h1 {
+        font-size: 28px;
+    }
+
+    .design1 img {
+        height: 300px;
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .video img {
+        margin-top: 100px;
+        height: auto;
+        width: 100%;
+    }
+
+    .aboutus {
+        height: 300px;
+    }
+
+    .aboutus h1 {
+        font-size: 50px;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+    .design h1 {
+        font-size: 24px;
+    }
+
+    .design1 img {
+        height: 250px;
+    }
+
+    .image img {
+        height: auto;
+        width: 100%;
+    }
+
+    .video img {
+        margin-top: 50px;
+        height: auto;
+        width: 100%;
+    }
+
+    .aboutus {
+        height: 250px;
+    }
+
+    .aboutus h1 {
+        font-size: 40px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .design h1 {
+        font-size: 22px;
+    }
+
+    .design1 img {
+        height: 200px;
+    }
+
+    .image img {
+        height: auto;
+        width: 100%;
+    }
+
+    .video img {
+        margin-top: 30px;
+        height: auto;
+        width: 100%;
+    }
+}
