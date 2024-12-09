@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(6, 4, 4, 0.5),
+      rgb(5, 3, 3, 0.5)
+    ),
+    url("../images/house1.png");
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.contact-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.contact-image h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.contact-image p {
+    margin-top: 10px;
+  font-size: 20px;
+}
+
+.information {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Contact {
+    background-color: white;
+    padding: 20px;
+    padding-top: 50px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 30%; 
+    height: 250px;
+    text-align: center;
+}
+
+.Contact i {
+    background-color: rgb(166, 125, 73);
+    border-radius: 60%;
+    height: 60px;
+    width: 60px;
+    padding-top: 15px;
+    font-size: 30px; 
+    color: white; 
+    margin-bottom: 20px; 
+}
+
+.Contact h1{
+    font-size: 25px;
+    color: black;
+    padding-bottom:5px ;
+    font-family: sans-serif;
+}
+
+
+.Contact p {
+    font-size: 20px; 
+    color: gray; 
+    cursor: pointer;
+}
+
+.Contact p:hover{
+    color: rgb(166, 125, 73);
+}
+
+.info{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    gap: 200px;
+    margin-top: 50px;
+}
+
+.map{
+    width: 100%;
+    margin-left: 100px;
+}
+
+.map img{
+    width: 500px;
+    height: 500px;
+}
+
+.form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:rgb(166, 125, 73);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+.form-row input, .form-row select, .form-row textarea {
+    width: 150px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.form-row textarea{
+    width: 300px;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+@media(max-width:700px){
+    .content{
+        width: 100%;
+    }
+
+    .contact-image{
+        width: 100%;
+    }
+
+    .information{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Contact{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .info{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .map{
+        width: 100%;
+        height: auto;
+    }
+
+    .form{
+        width: 80%;
+        height: auto;
+    }
+}
