@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.blogs {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(9, 8, 8, 0.5),
+        rgba(7, 7, 7, 0.5)
+    ),
+    url("../images/WhatsApp\ Image\ 2024-12-03\ at\ 13.03.39_320b007b.jpg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.blogs-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.blogs-image h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.blog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke;
+}
+
+.blogs h1 {
+    font-size: 80px;
+}
+
+.blog p {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.blog p:hover {
+    color: #f59e42; 
+}
+
+.blogimg1 {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.blogimg1 img {
+    height: 300px;
+    width: 800px;
+    max-width: 100%;
+}
+
+.blogimg1 h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.blogimg1 h1:hover {
+    color: rgb(166, 125, 73);
+    transition: 2s;
+}
+
+.blogimg1 p {
+    color: #555555;
+    font-family: serif;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.botton {
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botton a {
+    color: black;
+    text-decoration: none;
+}
+
+.botton a:hover {
+    color: rgb(166, 125, 73);
+}
+
+.image2 {
+    height: 400px;
+    width: 600px;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.text {
+    font-size: 44px;
+    font-family: sans-serif;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+}
+  
+  .all-business {
+    margin: 50px ;
+    background-color: #fff;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-top: 100px;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  .category h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .category li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+  }
+  
+  .category li:last-child {
+    border-bottom: none;
+  }
+  
+  .category span {
+    font-weight: bold;
+    color: #007BFF;
+  }
+  
+  .recent-posts-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 400px;
+  }
+  
+  .recent-posts-container h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .post {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .post img {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    margin-right: 15px;
+  }
+  
+  .post-details h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .post-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-details p span {
+    margin-right: 5px;
+    color: #555;
+  }
+  
+  .post:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  
+  .tags-container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 300px;
+  }
+  
+  .tags-container h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .tags a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #007BFF;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .tags a:hover {
+    background-color: #007BFF;
+    color: #fff;
+  }
+
+
+@media (max-width: 1200px) {
+    .blogs h1 {
+        font-size: 60px;
+    }
+
+    .blog p {
+        font-size: 60px;
+    }
+
+    .blogimg1 img {
+        height: 250px;
+        width: 100%;
+    }
+
+    .blogimg1 h1 {
+        font-size: 25px;
+    }
+
+    .botton {
+        font-size: 40px;
+    }
+
+    .blogs h1 {
+        font-size: 50px;
+    }
+
+    .blog p {
+        font-size: 60px;
+    }
+
+    .blogimg1 img {
+        height: 300px;
+        width: 100%;
+    }
+
+    .blogimg1 h1 {
+        font-size: 40px;
+    }
+
+    .botton {
+        font-size: 16px;
+    }
+
+    .image2 {
+        height: 300px;
+        width: 100%;
+    }
+
+    .text {
+        font-size: 40px;
+    }
+
+    .blogs h1 {
+        font-size: 40px;
+    }
+
+    .blog p {
+        font-size: 60px;
+    }
+
+    .blogimg1 img {
+        height: 300px;
+        width: 100%;
+    }
+
+    .blogimg1 h1 {
+        font-size: 40px;
+    }
+
+    .botton {
+        font-size: 14px;
+    }
+
+    .image2 {
+        height: 300px;
+        width: 100%;
+    }
+
+    .text {
+        font-size: 30px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
