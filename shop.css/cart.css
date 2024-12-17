@@ -1,0 +1,306 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blogs {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(9, 8, 8, 0.5),
+        rgba(7, 7, 7, 0.5)
+    ),
+    url("../images/WhatsApp\ Image\ 2024-12-03\ at\ 13.03.39_320b007b.jpg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+a {
+    color: rgb(83, 83, 183);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.blogs-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.blogs-image h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.blog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke;
+}
+
+.blogs h1 {
+    font-size: 80px;
+}
+
+.blog p {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.blog p:hover {
+    color: #f59e42;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+    font-size: 28px;
+    text-align: left;
+}
+
+th, td {
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+img {
+    width: 120px;
+    height: auto;
+}
+
+input {
+    width: 120px;
+    text-align: center;
+    font-size: 24px;
+}
+
+button.remove {
+    background: none;
+    color: red;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+button.remove:hover {
+    color: darkred;
+}
+
+:placeholder-shown {
+    height: 70px;
+    width: 500px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cartbut {
+    background-color: rgb(166, 125, 73);
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 40px;
+    height: 70px;
+    width: 170px;
+    cursor: pointer;
+}
+
+.coupon.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.coupon-button {
+    margin-top: 20px;
+}
+
+.cart-totals {
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+.cart-totals h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.totals-box {
+    padding: 15px;
+    border-radius: 8px;
+    width: 500px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: normal;
+}
+
+td {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+tr:last-child td {
+    font-weight: bold;
+    color: #000;
+}
+
+.checkout-btn {
+    background-color: rgb(166, 125, 73);
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 40px;
+    height: 70px;
+    width: 400px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .blogs {
+        height: 300px;
+        width: 100%;
+    }
+
+    .blogs-image h1 {
+        font-size: 40px;
+    }
+
+    .blogs h1 {
+        font-size: 60px;
+    }
+
+    .blog p {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    table {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    th, td {
+        padding: 20px;
+    }
+
+    .cartbut {
+        width: 150px;
+    }
+
+    .checkout-btn {
+        width: 350px;
+    }
+
+    .totals-box {
+        width: 100%;
+    }
+
+    .coupon.container {
+        flex-direction: column;
+    }
+
+    .coupon-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .blogs {
+        height: 250px;
+    }
+
+    .blogs-image h1 {
+        font-size: 30px;
+    }
+
+    .blogs h1 {
+        font-size: 40px;
+    }
+
+    .blog p {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    table {
+        font-size: 18px;
+    }
+
+    th, td {
+        padding: 15px;
+    }
+
+    .cartbut {
+        width: 130px;
+    }
+
+    .checkout-btn {
+        width: 320px;
+    }
+
+    .totals-box {
+        width: 100%;
+    }
+
+    input {
+        width: 100px;
+        font-size: 20px;
+    }
+
+    button.remove {
+        font-size: 28px;
+    }
+
+    .coupon-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

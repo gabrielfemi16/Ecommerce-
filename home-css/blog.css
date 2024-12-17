@@ -28,6 +28,16 @@ body {
   position: relative;
 }
 
+a {
+  color: rgb(83, 83, 183);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
 .blogs-image {
   position: absolute;
   top: 50%;
